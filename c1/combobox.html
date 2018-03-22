@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>组合框</title>
+</head>
+<body>
+    <p>下面表单包含一个组合框，有三个选择</p>
+    <form action="writeCountry" method="get">
+        选择国家<br>
+        <select name="country">
+            <option value="US" selected>美国</option>
+            <option value="CA">加拿大</option>
+            <option value="CN">中国</option>
+        </select>
+        <br>
+    </form>
+    <br>
+    <p>下面表单有一个列表框：</p>
+    <form action="writeCountry" method="get">
+        选择国家<br>
+        <select name="country" multiple>
+            <option value="US" selected>美国</option>
+            <option value="CA">加拿大</option>
+            <option value="CN">中国</option>
+        </select>
+        <br>
+        (按住Ctrl键多选)
+    </form>
+</body>
+</html>
